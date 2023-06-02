@@ -1,11 +1,11 @@
 .controller.custom{
-    background-image: url(https://cdn.rawgit.com/DavidF-Dev/1ac045d01b75115c4708cf063b78d4a0/raw/b35808e021b55813467c10d021e618f4248d1c41/base.svg);
+    background-image: url(base.svg);
     height: 692px;
     width: 758px;
 }
 
 .custom.disconnected {
-    background-image: url(https://cdn.rawgit.com/DavidF-Dev/1ac045d01b75115c4708cf063b78d4a0/raw/8b6885e41cec3679e26a3a9b05f9dd6e53133df9/disconnected.svg);
+    background-image: url(disconnected.svg);
 }
 
 .custom.disconnected div {
@@ -22,7 +22,7 @@
 .custom .trigger {
     width:118px;
     height:119px;
-    background: url(https://cdn.rawgit.com/DavidF-Dev/1ac045d01b75115c4708cf063b78d4a0/raw/8b6885e41cec3679e26a3a9b05f9dd6e53133df9/trigger.svg);
+    background: url(trigger.svg);
     opacity: 1;
 }
 
@@ -51,7 +51,7 @@
 .custom .bumper {
     width: 124px;
     height: 53px;
-    background: url(https://cdn.rawgit.com/DavidF-Dev/1ac045d01b75115c4708cf063b78d4a0/raw/8b6885e41cec3679e26a3a9b05f9dd6e53133df9/bumper.svg);
+    background: url(bumper.svg);
     opacity: 0;
 }
 
@@ -98,13 +98,13 @@
 }
 
 .custom .back {
-    background: url(https://cdn.rawgit.com/DavidF-Dev/1ac045d01b75115c4708cf063b78d4a0/raw/8b6885e41cec3679e26a3a9b05f9dd6e53133df9/start-select.svg);
+    background: url(start-select.svg);
     width: 77px;
     height: 36px;
     opacity: 0;
 }
 .custom .start {
-    background: url(https://cdn.rawgit.com/DavidF-Dev/1ac045d01b75115c4708cf063b78d4a0/raw/8b6885e41cec3679e26a3a9b05f9dd6e53133df9/start-select.svg);
+    background: url(start-select.svg);
     width: 62px;
     height: 36px;
     opacity: 0;
@@ -133,7 +133,7 @@
 
 .custom .button {
     position: absolute;
-    background: url(https://cdn.rawgit.com/DavidF-Dev/1ac045d01b75115c4708cf063b78d4a0/raw/8b6885e41cec3679e26a3a9b05f9dd6e53133df9/buttons.svg);
+    background: url(buttons.svg);
     width: 50px;
     height: 50px;
     /* display: none; */
@@ -178,7 +178,7 @@
 
 .custom .stick {
     position: absolute;
-    background: url(https://cdn.rawgit.com/DavidF-Dev/1ac045d01b75115c4708cf063b78d4a0/raw/8b6885e41cec3679e26a3a9b05f9dd6e53133df9/stick.svg);
+    background: url(stick.svg);
     background-position: 0px 0;
     height: 84px;
     width: 84px;
@@ -207,7 +207,7 @@
 }
 
 .custom .face {
-    background: url(https://cdn.rawgit.com/DavidF-Dev/1ac045d01b75115c4708cf063b78d4a0/raw/8b6885e41cec3679e26a3a9b05f9dd6e53133df9/dpad.svg);
+    background: url(dpad.svg);
     position: absolute;
     opacity: 0;
 }
