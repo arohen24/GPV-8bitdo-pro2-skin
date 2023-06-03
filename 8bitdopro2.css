@@ -17,7 +17,7 @@
     display: none;
 }
 
-.custom .triggers{ /* The triggers are housed inside a div, so this sizes the div properly and positions it */
+.custom .triggers{
     width: 341px;
     height: 119px;
     position: absolute;
@@ -147,11 +147,9 @@
     width: 50px;
     height: 50px;
     opacity: 0;
-    /* display: none; */
 }
 
 .custom .button.pressed {
-    /* background-position-y: -32px; */
     opacity: 1;
 }
 
