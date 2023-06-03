@@ -1,11 +1,16 @@
 .controller.custom{
     background-image: url(base.svg);
+    background-repeat: no-repeat;
     height: 692px;
     width: 758px;
+    transform: scale(1, 1);
+    top: 1px;
+    left: 1px;
 }
 
 .custom.disconnected {
     background-image: url(disconnected.svg);
+    background-repeat: no-repeat;
 }
 
 .custom.disconnected div {
@@ -13,16 +18,17 @@
 }
 
 .custom .triggers{ /* The triggers are housed inside a div, so this sizes the div properly and positions it */
-    width: 556px;
+    width: 341px;
     height: 119px;
     position: absolute;
-    left: 101px;
+    left: 58px;
 }
 
 .custom .trigger {
     width:118px;
     height:119px;
     background: url(trigger.svg);
+    background-repeat: no-repeat;
     opacity: 1;
 }
 
@@ -41,17 +47,18 @@
 }
 
 .custom .bumpers {
-    width: 542px;
+    width: 341px;
     height: 53px;
-    left: 108px;
+    left: 58px;
     position: absolute;
-	top: 111px;
+	top:80px;
 }
 
 .custom .bumper {
     width: 124px;
     height: 53px;
     background: url(bumper.svg);
+    background-repeat: no-repeat;
     opacity: 0;
 }
 
@@ -93,20 +100,23 @@
     position: absolute;
     width: 216px;
     height: 36px;
-    top: 437px;
-    left: 276px;
+    top: 150px;
+    left: 191px;
 }
 
 .custom .back {
     background: url(start-select.svg);
-    width: 77px;
+    background-repeat: no-repeat;
+    width: 40px;
     height: 36px;
     opacity: 0;
 }
 .custom .start {
     background: url(start-select.svg);
-    width: 62px;
-    height: 36px;
+    background-repeat: no-repeat;
+    background-position-x: 6px;
+    width: 46px;
+    height: 12px;
     opacity: 0;
 }
 .custom .back.pressed, .start.pressed {
@@ -119,7 +129,6 @@
 }
 
 .custom .start {
-    background-position: -77px 0px;
     float: left;
 }
 
@@ -127,65 +136,76 @@
     position: absolute;
     width: 130px;
     height: 150px;
-	top: 181px;
-    left: 516px;
+	top: 80px;
+    left: 316px;
 }
 
 .custom .button {
     position: absolute;
     background: url(buttons.svg);
+    background-repeat: no-repeat;
     width: 50px;
     height: 50px;
+    opacity: 0;
     /* display: none; */
 }
 
 .custom .button.pressed {
-    background-position-y: -50px;
+    /* background-position-y: -32px; */
     opacity: 1;
 }
 
-.custom .a {
-    background-position: 0 0;
-    top: 100px;
-    left: 50px;
-}
-
 .custom .b {
-    background-position: -50px 0;
-    top: 50px;
-    right: -20px;
+    background-position: -32px -32px;
+    width: 32px;
+    height: 32px;
+    top: 63px;
+    left: 58px;
 }
 
-.custom .x {
-    background-position: -100px 0;
-    top: 50px;
-    left: 0px;
+.custom .a {
+    background-position: 0px -32px;
+    width: 32px;
+    height: 32px;
+    top: 94px;
+    right: 76px;
 }
 
 .custom .y {
-    background-position: -150px 0;
-    top: 0px;
-    left: 50px;
+    background-position: -64px -32px;
+    width: 32px;
+    height: 32px;
+    top: 32px;
+    left: 22px;
+}
+
+.custom .x {
+    background-position: -96px -32px;
+    width: 32px;
+    height: 32px;
+    top: 63px;
+    left: -13px;
 }
 
 .custom .sticks {
     position: absolute;
     width: 100px;
     height: 100px;
-    top: 331px;
-    left: 221px;
+    top: 196px;
+    left: 136px;
 }
 
 .custom .stick {
     position: absolute;
     background: url(stick.svg);
+    background-repeat: no-repeat;
     background-position: 0px 0;
-    height: 84px;
-    width: 84px;
+    height: 58px;
+    width: 58px;
 }
 
 .custom .stick.pressed {
-    background-position: -84px 0px;
+    background-position: -60px 0px;
 }
 
 .custom .stick.left {
@@ -195,19 +215,20 @@
 
 .custom .stick.right {
     top: 0px;
-    left: 232px;
+    left: 129px;
 }
 
 .custom .dpad {
     position: absolute;
     width: 114px;
     height: 113px;
-    top: 199px;
-    left: 114px;
+    top: 80px;
+    left: 60px;
 }
 
 .custom .face {
     background: url(dpad.svg);
+    background-repeat: no-repeat;
     position: absolute;
     opacity: 0;
 }
@@ -218,32 +239,32 @@
 
 .custom .face.up {
     background-position: 0px 0px;
-    left: 35px;
-    top: 0px;
-    width: 44px;
+    left: 18px;
+    top: 23px;
+    width: 39px;
     height: 57px;
 }
 
 .custom .face.down {
-    background-position: -44px 0px;
-	left: 35px;
-    bottom: 0;
-    width: 44px;
+    background-position: -39px 0px;
+	left: 30.5px;
+    bottom: -3px;
+    width: 24px;
     height: 57px;
 }
 
 .custom .face.left {
-    background-position: -88px 0px;
-    width: 56px;
+    background-position: -64px 0px;
+    width: 40px;
     height: 55px;
-    top: 22px;
-    left: 0;
+    top: 42px;
+    left: 6px;
 }
 
 .custom .face.right {
-    background-position: -146px 0px;
-    width: 56px;
+    background-position: -102px 0px;
+    width: 40px;
     height: 55px;
-    top: 22px;
-    right: 0;
+    top: 42px;
+    right: 33px;
 }
